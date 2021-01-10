@@ -1,2 +1,2 @@
 # pyscrape
-A python based web-scraping program. 
+- A python based web-scraping program. 
