@@ -1,10 +1,10 @@
-#script per scaricare file dal sito di farinella
+#script per scaricare file da un sito
 from bs4 import BeautifulSoup as bs
 import requests
 import time
 
-DOMAIN = 'https://www.dmi.unict.it/farinella/Prog1/' #indirizzo del dominio principale
-URL = 'https://www.dmi.unict.it/farinella/Prog1/Lezioni/' #indirizzo della cartella dove cercare
+DOMAIN = 'https://www.example.com/' #indirizzo del dominio principale
+URL = 'https://www.example.com/folder/' #indirizzo della cartella dove cercare
 FILETYPE = '.' #questo comando specifica il tipo di file da cercare
 
 def get_soup(url):
